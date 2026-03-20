@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Branding | Tuxonimo</title>
+  <meta name="description" content="Galería de branding de Tuxonimo." />
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Archivo:ital,wdth,wght@0,62.5..125,100..900;1,62.5..125,100..900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/galeria.css" />
+  <script src="js/script.js" defer></script>
+  <script src="js/galeria.js" defer></script>
+</head>
+<body class="page-inner page-gallery">
+  <div class="site-shell">
+    <header class="site-header site-header-inner" id="siteHeader">
+      <div class="header-inner">
+        <a href="index.html" class="brand" aria-label="Ir al inicio">
+          <img src="img/logo-dark.svg" alt="Logo de Tuxonimo" class="brand-logo brand-logo-static" />
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav site-nav-inner" id="siteNav">
+          <a href="proyectos.html" class="is-active">Portafolio</a>
+          <a href="sobre-mi.html">Sobre mí</a>
+          <a href="index.html#trayectoria">Trayectoria</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="inner-page">
+      <section class="gallery-topbar">
+        <div class="fluid-wrap gallery-topbar-wrap">
+          <h1 class="gallery-title">Branding</h1>
+
+          <div class="gallery-topbar-right">
+            <div class="gallery-nav">
+              <button type="button" class="gallery-arrow" data-gallery-prev aria-label="Proyecto anterior">←</button>
+              <button type="button" class="gallery-arrow" data-gallery-next aria-label="Proyecto siguiente">→</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-strip-wrap">
+        <div class="gallery-strip" data-gallery-strip>
+          <article class="gallery-item">
+            <button
+              type="button"
+              class="gallery-zoom-trigger"
+              data-zoom-src="img/branding-01.jpg"
+              data-zoom-alt="Proyecto de branding 1"
+              data-zoom-title="Milea - Pañoletas tejidas"
+              data-zoom-meta="Identidad visual · 2024"
+            >
+              <div class="gallery-figure">
+                <img src="img/branding-01.jpg" alt="Proyecto de branding 1" />
+              </div>
+            </button>
+            <div class="gallery-meta">
+              <h2>Milea - Pañoletas tejidas</h2>
+              <p>Identidad visual · 2024</p>
+            </div>
+          </article>
+
+          <article class="gallery-item">
+            <button
+              type="button"
+              class="gallery-zoom-trigger"
+              data-zoom-src="img/branding-02.jpg"
+              data-zoom-alt="Proyecto de branding 2"
+              data-zoom-title="Calendario - Coach Travel"
+              data-zoom-meta="Ilustración y Sistema visual · 2025"
+            >
+              <div class="gallery-figure">
+                <img src="img/branding-02.jpg" alt="Proyecto de branding 2" />
+              </div>
+            </button>
+            <div class="gallery-meta">
+              <h2>Calendario - Coach Travel</h2>
+              <p>Ilustración y Sistema visual · 2025</p>
+            </div>
+          </article>
+
+          <article class="gallery-item">
+            <button
+              type="button"
+              class="gallery-zoom-trigger"
+              data-zoom-src="img/branding-03.jpg"
+              data-zoom-alt="Proyecto de branding 3"
+              data-zoom-title="Hecho en Colombia - Escuela de Fútbol"
+              data-zoom-meta="Identidad Visual y Mural"
+            >
+              <div class="gallery-figure">
+                <img src="img/branding-03.jpg" alt="Proyecto de branding 3" />
+              </div>
+            </button>
+            <div class="gallery-meta">
+              <h2>Hecho en Colombia - Escuela de Fútbol</h2>
+              <p>Identidad Visual y Mural</p>
+            </div>
+          </article>
+
+          <article class="gallery-item">
+            <button
+              type="button"
+              class="gallery-zoom-trigger"
+              data-zoom-src="img/branding-04.jpg"
+              data-zoom-alt="Proyecto de branding 4"
+              data-zoom-title="Calendario Lunar Biodinámico"
+              data-zoom-meta="Dirección Visual y Diseño de Producto· 2024"
+            >
+              <div class="gallery-figure">
+                <img src="img/branding-04.jpg" alt="Proyecto de branding 4" />
+              </div>
+            </button>
+            <div class="gallery-meta">
+              <h2>Calendario Lunar Biodinámico</h2>
+              <p>Dirección Visual y Diseño de Producto· 2024</p>
+            </div>
+          </article>
+
+          <article class="gallery-item">
+            <button
+              type="button"
+              class="gallery-zoom-trigger"
+              data-zoom-src="img/branding-05.jpg"
+              data-zoom-alt="Proyecto de branding 5"
+              data-zoom-title="Granos de Fe"
+              data-zoom-meta="Aplicaciones a producto · 2026"
+            >
+              <div class="gallery-figure">
+                <img src="img/branding-05.jpg" alt="Proyecto de branding 5" />
+              </div>
+            </button>
+            <div class="gallery-meta">
+              <h2>Granos de Fe</h2>
+              <p>Aplicaciones a producto · 2026</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="lightbox" id="artLightbox" aria-hidden="true">
+        <button class="lightbox-close" type="button" aria-label="Cerrar zoom" data-lightbox-close>×</button>
+        <button class="lightbox-backdrop" type="button" aria-label="Cerrar fondo" data-lightbox-close></button>
+
+        <figure class="lightbox-figure">
+          <img id="lightboxImage" src="" alt="" />
+          <figcaption class="lightbox-caption">
+            <h3 id="lightboxTitle"></h3>
+            <p id="lightboxMeta"></p>
+          </figcaption>
+        </figure>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="fluid-wrap footer-inner">
+        <div>
+          <p class="footer-brand">TUXONIMO</p>
+          <p class="footer-copy">ALL RIGHTS RESERVED 2026</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Inicio</a>
+          <a href="proyectos.html">Portafolio</a>
+          <a href="sobre-mi.html">Sobre mí</a>
+          <a href="index.html#trayectoria">Trayectoria</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuxonimo</title>
+  <meta
+    name="description"
+    content="Portafolio creativo de ilustración, branding y servicios visuales."
+  />
+<link rel="icon" type="image/svg" href="img/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Archivo:ital,wdth,wght@0,62.5..125,100..900;1,62.5..125,100..900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body class="page-home">
+  <div class="site-shell">
+    <header class="site-header" id="siteHeader">
+      <div class="header-inner">
+        <a href="index.html" class="brand" aria-label="Ir al inicio">
+          <img src="img/logo-light.svg" alt="Logo de Tuxonimo" class="brand-logo brand-logo-light" />
+          <img src="img/logo-dark.svg" alt="" aria-hidden="true" class="brand-logo brand-logo-dark" />
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="proyectos.html">Portafolio</a>
+          <a href="sobre-mi.html">Sobre mí</a>
+          <a href="#trayectoria">Trayectoria</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-label="Presentación principal">
+        <div class="hero-slider" id="heroSlider">
+          <article class="hero-slide is-active" data-index="0">
+            <div class="hero-media">
+              <img src="img/hero-01.jpg" alt="Ilustración destacada" />
+            </div>
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content fluid-wrap">
+              <p class="eyebrow">Soluciones visuales</p>
+              <h1>Ilustración</h1>
+              <p class="hero-description">
+                Desarrollo proyectos de ilustración para publicaciones impresas, digitales y videoclips.
+              </p>
+              <div class="hero-actions">
+                <a href="proyectos.html" class="btn btn-primary">Conoce mi trabajo</a>
+                <a href="contacto.html" class="btn btn-secondary">Desarrollemos tu proyecto</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="hero-slide" data-index="1">
+            <div class="hero-media">
+              <img src="img/hero-02.jpg" alt="Proyecto de branding" />
+            </div>
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content fluid-wrap">
+              <p class="eyebrow">Branding + concepto</p>
+              <h2>Branding</h2>
+              <p class="hero-description">
+                Construyo identidades visuales con dirección estética, intención y una narrativa coherente.
+              </p>
+              <div class="hero-actions">
+                <a href="proyectos.html" class="btn btn-primary">Explorar marcas</a>
+              </div>
+            </div>
+          </article>
+
+          <<article class="hero-slide" data-index="2">
+  <div class="hero-media">
+    <video
+      class="hero-video"
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      poster="img/hero-03-poster.jpg"
+    >
+      <source src="img/hero-03.mp4" type="video/mp4" />
+      Tu navegador no soporta video HTML5.
+    </video>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content fluid-wrap">
+    <p class="eyebrow">Enseñanza</p>
+    <h2>Servicios</h2>
+    <p class="hero-description">
+      Charlas creativas, clases personalizadas y soluciones visuales hechas a tu medida.
+    </p>
+    <div class="hero-actions">
+      <a href="contacto.html" class="btn btn-primary">Reserva tu espacio</a>
+    </div>
+  </div>
+</article>
+        </div>
+
+        <div class="hero-controls fluid-wrap">
+          <button class="hero-arrow prev" id="prevSlide" aria-label="Slide anterior">
+            &#8592;
+          </button>
+
+          <div class="hero-dots" aria-label="Selector de slides">
+            <button class="dot is-active" data-slide="0" aria-label="Ir al slide 1"></button>
+            <button class="dot" data-slide="1" aria-label="Ir al slide 2"></button>
+            <button class="dot" data-slide="2" aria-label="Ir al slide 3"></button>
+          </div>
+
+          <button class="hero-arrow next" id="nextSlide" aria-label="Siguiente slide">
+            &#8594;
+          </button>
+        </div>
+
+        <div class="hero-scroll-indicator">
+          <span>Scroll</span>
+        </div>
+      </section>
+
+      <section class="awards section-spacing" id="trayectoria">
+        <div class="fluid-wrap">
+          <div class="section-head">
+            <p class="section-kicker">Recorrido creativo</p>
+            <h2 class="section-title">Trayectoria</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="timeline-year">2024 - Act.</span>
+              <div class="timeline-copy">
+                <h3>Senior Graphic Designer</h3>
+                <p>Colegio Cambridge, Liceo Francés Internacional de Bogotá y Ouyi Agencia Creativa</p>
+                              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-year">2023 - Act.</span>
+              <div class="timeline-copy">
+                <h3>Exposiciones reelevantes</h3>
+                <p>Seleccionado Salón Visual Bacanika 2024 - Bodega Comfama Medellín</p>
+                <p>Seleccionado Tercer Salón visual de ilustración de Comfenalgo y Tragaluz editores</p>
+                <p>Seleccionado Salón Visual Bacanika 2023 - Bodega Comfama Medellín.</p>
+                 </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-year">2022-2026</span>
+              <div class="timeline-copy">
+                <h3>Portadas y diseños destacados</h3>
+                <p>Dentro del desarrollo de las actividades como diseñador gráfico e ilustrador, se publicarón títulos ilustrados destacados en portada e internos: La Sangre Derramada (Ed. Planeta), Pinnochio (Calixta Ed.), Verbedíns 1 y 2 (Calixta ed.), La última Rebelión (Calixta Ed), Sincronía (Nova Casa Ed.).</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-year">2015</span>
+              <div class="timeline-copy">
+                <h3>Inicio del camino profesional</h3>
+                <p>Primeros proyectos, especialmente para grupos de música extrema del sello discográfico Living Metal Producciones: Reqviem, Neurosis (Col), Transmetal, Cannibal Corpse, Mercyful Fate.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="fluid-wrap footer-inner">
+        <div>
+          <p class="footer-brand">TUXONIMO</p>
+          <p class="footer-copy">ALL RIGHTS RESERVED 2026</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Inicio</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="sobre-mi.html">Sobre mí</a>
+          <a href="#trayectoria">Trayectoria</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
